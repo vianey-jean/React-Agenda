@@ -30,7 +30,3 @@ Le but de l'application est de montrer l'utilisation de l'API contextuelle, useM
 * Lancez l'application - faites pivoter la commande 
 ``` yarn start ```
 
-## Image de l'application
-<p align="center">
-  <img src="/print-sistema.png">
-</p># React-Agenda
