@@ -1,32 +1,36 @@
 # react-agenda
-App React desenvolvido durante o Módulo 3 do Bootcamp de React do IGTI
+App React développé pendant le module 3 de l'IGTI React Bootcamp
 
-## Sobre o App:
-Aplicativo de agenda
+## À propos de l'application:
+Application de calendrier
 
-O objetivo do app é mostrar o uso da API Context, useMemo, useCallback, React.memo, useReducer e hooks personalizados 
+Le but de l'application est de montrer l'utilisation de l'API contextuelle, useMemo, useCallback, React.memo, useReducer et des hooks personnalisés
 
-## Tecnologias utilizadas:
+## Technologies utilisées:
 * ReactJs
 * HTML
 * CSS
 
-## Como rodar
-* Fazer um clone deste repositório
-* Iniciar o backend
-* Iniciar o frontend
+## Comment tirer
+* Créer un clone de ce référentiel 
+* Démarrer le backend 
+* Démarrer le frontend
 
-## Como rodar o backend
-* Entrar na pasta backend
-* Baixar as dependências - rodar o comando ``` npm install ```
-* Inicializar o app - rodar o comando ``` npm start ```
+## Comment faire pivoter le backend 
+* Connectez-vous au dossier principal
+* Télécharger les dépendances - faire pivoter la commande
+ ``` npm install ```
+* Lancez l'application - faites pivoter la commande
+ ``` npm start ```
 
-## Como rodar o frontend
-* Entrar na pasta frontend
-* Baixar as dependências - rodar o comando ``` yarn ```
-* Inicializar o app - rodar o comando ``` yarn start ```
+## Comment faire pivoter le frontend 
+* Entrez le dossier frontal 
+* Télécharger les dépendances - faire pivoter la commande
+``` yarn ```
+* Lancez l'application - faites pivoter la commande 
+``` yarn start ```
 
-## Imagem do App
+## Image de l'application
 <p align="center">
   <img src="/print-sistema.png">
 </p># React-Agenda
