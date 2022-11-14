@@ -1,0 +1,110 @@
+{
+  "calendars": [
+    {
+      "id": 1,
+      "name": "Pesrsonnel",
+      "color": "#8E24AA"
+    },
+    {
+      "id": 2,
+      "name": "Travail",
+      "color": "#7CB342"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "date": "2021-05-23",
+      "time": "14:00",
+      "desc": "Rencontre avec le patron",
+      "calendarId": 2
+    },
+    {
+      "id": 2,
+      "date": "2021-05-28",
+      "desc": "Administrer le vaccin au chien",
+      "calendarId": 1
+    },
+    {
+      "id": 3,
+      "date": "2021-06-03",
+      "desc": "Consultation orthopédique",
+      "time": "08:30",
+      "calendarId": 1
+    },
+    {
+      "id": 4,
+      "date": "2021-06-03",
+      "desc": "Exécution du projet",
+      "calendarId": 2
+    },
+    {
+      "id": 5,
+      "date": "2021-04-20",
+      "desc": "Revue de voiture",
+      "calendarId": 1
+    },
+    {
+      "id": 6,
+      "date": "2021-05-29",
+      "desc": "Natation",
+      "calendarId": 1,
+      "time": "09:00"
+    },
+    {
+      "id": 7,
+      "date": "2021-05-21",
+      "desc": "Début des cours",
+      "calendarId": 1
+    },
+    {
+      "date": "2021-06-17",
+      "desc": "Teste 3",
+      "calendarId": 2,
+      "time": "07:00",
+      "id": 9,
+      "calendar": {
+        "id": 2,
+        "name": "Travail",
+        "color": "#7CB342"
+      }
+    },
+    {
+      "id": 10,
+      "date": "2021-06-17",
+      "desc": "Teste 2",
+      "calendarId": 1
+    },
+    {
+      "date": "2021-09-05",
+      "desc": "Dentiste",
+      "calendarId": 1,
+      "id": 13,
+      "calendar": {
+        "id": 1,
+        "name": "Personnel",
+        "color": "#8E24AA"
+      },
+      "time": "18:00"
+    },
+    {
+      "date": "2021-09-05",
+      "desc": "Reunion",
+      "calendarId": 2,
+      "time": "10:00",
+      "id": 14
+    },
+    {
+      "date": "2021-09-10",
+      "desc": "Sprint 04 Review",
+      "calendarId": 2,
+      "id": 15,
+      "calendar": {
+        "id": 2,
+        "name": "Travail",
+        "color": "#7CB342"
+      },
+      "time": "11:00"
+    }
+  ]
+}
