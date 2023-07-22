@@ -17,3 +17,23 @@ body,
 #root {
   height: 100%;
 }
+
+h1, h2{
+  color:brown;
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+h3{
+  color: chartreuse;
+}
+kbd{
+  color: blue;
+}
+span{
+  font-weight: bold;
+}
+
+#logout{
+  color: red;
+}

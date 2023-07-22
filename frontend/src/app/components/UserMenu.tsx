@@ -59,7 +59,7 @@ export default function UserMenu() {
             <div>{user.name}</div>
             <small>{user.email}</small>
           </Box>
-          <MenuItem onClick={signOut}>Logout</MenuItem>
+          <MenuItem id="logout" onClick={signOut}>Logout</MenuItem>
         </Menu>
       </div>
     </div>
