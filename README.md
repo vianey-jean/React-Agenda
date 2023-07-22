@@ -16,6 +16,8 @@ Le but de l'application est de montrer l'utilisation de l'API contextuelle, useM
 * Démarrer le backend 
 * Démarrer le frontend
 
+## Cloner le projet
+* git clone https://github.com/vianey-jean/React-Agenda.git
 ## Comment faire pivoter le backend 
 * Connectez-vous au dossier principal
 * Télécharger les dépendances - faire pivoter la commande
@@ -24,9 +26,9 @@ Le but de l'application est de montrer l'utilisation de l'API contextuelle, useM
  ``` npm start ```
 
 ## Comment faire pivoter le frontend 
-* Entrez le dossier frontal 
+* Entrez le dossier frontend
 * Télécharger les dépendances - faire pivoter la commande
-``` yarn ```
+``` npm install ```
 * Lancez l'application - faites pivoter la commande 
-``` yarn start ```
+``` npm start ```
 
