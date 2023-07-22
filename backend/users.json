@@ -5,6 +5,12 @@
       "name": "Admin",
       "email": "admin@admin.re",
       "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "Visiteur",
+      "email": "visiteur@admin.re",
+      "password": "1234"
     }
   ]
 }

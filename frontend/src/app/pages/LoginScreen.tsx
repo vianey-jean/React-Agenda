@@ -16,14 +16,14 @@ const useStyles = makeStyles({
 export default function LoginScreen(props: ILoginScreenProps) {
   const classes = useStyles();
 
-  const [email, setEmail] = useState("admin@admin.re");
-  const [password, setPassword] = useState("1234");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   function signIn(evt: React.FormEvent) {
     evt.preventDefault();
     signInEndpoint(email, password).then(props.onSignIn, (e) =>
-      setError("Email ou senha incorretos.")
+      setError("Mauvaise adresse e-mail ou mot de passe.")
     );
   }
 
@@ -32,7 +32,7 @@ export default function LoginScreen(props: ILoginScreenProps) {
       <h1>Agenda React</h1>
       <p>
       Entrez l'adresse e-mail et le mot de passe pour entrer dans le système. Pour tester, utilisez l'e-mail{" "}
-        <kbd>admin@admin.re</kbd> et mot de passe: <kbd>1234</kbd>
+        <kbd>Admin (admin@admin.re) </kbd> ou <kbd> Visiteur (visiteur@admin.re)</kbd> et mot leur passe: <kbd>1234</kbd>
       </p>
       <form onSubmit={signIn}>
         <TextField
