@@ -23,7 +23,7 @@ export function getToday() {
 
 export function formatMonth(isoMonth: string) {
   const [year, month] = isoMonth.split("-");
-  return `${MONTHS[+month - 1]} de ${year}`;
+  return `${MONTHS[+month - 1]}   ${year}`;
 }
 
 export function addMonths(isoMonth: string, increment:number) {
