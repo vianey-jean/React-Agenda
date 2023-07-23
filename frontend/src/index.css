@@ -41,4 +41,6 @@ span{
 #icon1, #icon2{
   color: blue;
 }
-
+#form{
+  width: 500px;
+}
