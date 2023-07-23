@@ -1,8 +1,10 @@
+  # react-agenda
+App React développé pendant le module 3 de l'IGTI React Bootcamp
+
+* Voila le résultat sur l'agendas
+
   <img src='./Agendas.png'>  
 
-
-# react-agenda
-App React développé pendant le module 3 de l'IGTI React Bootcamp
 
 ## À propos de l'application:
 Application de calendrier
