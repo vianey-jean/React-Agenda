@@ -3,19 +3,19 @@
 const hasAuth = process.argv[2] !== "noauth";
 
 
-import { readFileSync } from "fs";
-import { urlencoded, json } from "body-parser";
-import { create, router as _router, defaults } from "json-server";
-import session from "express-session";
+const fs = require("fs");
+const bodyParser = require("body-parser");
+const jsonServer = require("json-server");
+const session = require("express-session");
 
-const server = create();
+const server = jsonServer.create();
 
-const router = _router("./db.json");
-const userdb = JSON.parse(readFileSync("./users.json", "UTF-8"));
+const router = jsonServer.router("./db.json");
+const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
 
-server.use(defaults());
-server.use(urlencoded({ extended: true }));
-server.use(json());
+server.use(jsonServer.defaults());
+server.use(bodyParser.urlencoded({ extended: true }));
+server.use(bodyParser.json());
 
 server.get("/calendar/:month", function (req, res) {
   res.sendFile(__dirname + "/public/index.html");
