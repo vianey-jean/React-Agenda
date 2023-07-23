@@ -42,7 +42,7 @@ export default function UserMenu() {
       <div>
         <IconButton onClick={handleClick}>
           <Avatar>
-            <Icon>person</Icon>
+            <Icon id="icon1">person</Icon>
           </Avatar>
         </IconButton>
         <Menu
@@ -54,7 +54,7 @@ export default function UserMenu() {
         >
           <Box className={classes.userDetails}>
             <Avatar>
-              <Icon>person</Icon>
+              <Icon id="icon2">person</Icon>
             </Avatar>
             <div>{user.name}</div>
             <small>{user.email}</small>

@@ -2,7 +2,7 @@
   "calendars": [
     {
       "id": 1,
-      "name": "Pesrsonnel",
+      "name": "Personnel",
       "color": "#8E24AA"
     },
     {
@@ -113,9 +113,9 @@
       "time": "10:00",
       "id": 16,
       "calendar": {
-        "id": 1,
-        "name": "Pesrsonnel",
-        "color": "#8E24AA"
+        "id": 2,
+        "name": "Travail",
+        "color": "#7CB342"
       }
     },
     {
